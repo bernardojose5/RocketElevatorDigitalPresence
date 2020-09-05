@@ -59,7 +59,7 @@ html, body {
 }
 body {
 	color:#666;
-	background-color:#fff;
+	background-color:#36358d;
 	font-family:'Open Sans',Arial,Helvetica,sans-serif;
 	-webkit-font-smoothing: antialiased;
 
@@ -81,7 +81,7 @@ body #wrapper {/* used by RTL*/
 
 body.bg-grey,
 body.bg-grey #wrapper {
-	background-color:#f1f2f7;
+	background-color:#ffffff;
 }
 
 section {
@@ -89,7 +89,7 @@ section {
 	position: relative;
 	padding: 100px 0;
 	border-bottom:rgba(0,0,0,0.1) 1px solid;
-	background-color: #fff;
+	background-color: rgb(248, 248, 248);
 
 	/*
 	-webkit-transition: all .400s;
@@ -126,10 +126,10 @@ section:before {
 
 /* remove effect on parallax */
 section.parallax {
-	-webkit-transition: none;
-	   -moz-transition: none;
-		 -o-transition: none;
-			transition: none;
+	-webkit-transition: .7000s;
+	   -moz-transition: .7000;
+		 -o-transition: .7000;
+			transition: .7000;
 }
 
 /**
@@ -154,11 +154,11 @@ section header.section-header {
 	}
 
 	section.dark {
-		background-color:#212121 !important;
-		border-bottom:rgba(255,255,255,0.1) 1px solid;
+		background-color:#ffffff !important;
+		border-bottom:rgba(255, 255, 255, 0.411) 1px solid;
 	}
 	section.dark.alternate {
-		background-color:#151515 !important;
+		background-color:#0400ff !important;
 	}
 
 
@@ -171,7 +171,7 @@ section header.section-header {
 	section.alternate-2 div.heading-title h4, 
 	section.alternate-2 div.heading-title h5, 
 	section.alternate-2 div.heading-title h6 {
-		background-color: #f4f4f4 !important;
+		background-color: #ffffff !important;
 
 	}
 
@@ -266,7 +266,7 @@ section header.section-header {
 	section.dark h4,
 	section.dark h5,
 	section.dark h6 {
-		color:#fff;
+		color:rgb(0, 76, 216);
 	}
 	section.section-xxs {
 		padding:15px 0;
@@ -287,7 +287,7 @@ section header.section-header {
 		padding:140px 0;
 	}
 	section.dark a {
-		color:#999;
+		color:rgb(255, 255, 255);
 	}
 	section.parallax {
 		border:0;

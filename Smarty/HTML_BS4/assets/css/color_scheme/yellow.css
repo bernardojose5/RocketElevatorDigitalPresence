@@ -74,7 +74,7 @@
 	.box-icon.box-icon-color i,
 	.switch-primary.switch-round > input:checked + .switch-label:after,
 	section.dark .nav-tabs.nav-clean>li>a.active { 
-		color: #FAB702; 
+		color: #36358d; 
 	}
 	
 	#sidepanel.sidepanel-theme-color,
@@ -119,7 +119,7 @@
 	#progressBar #bar,								/* OWL */
 	#page-menu,
 	#page-menu ul {
-		background-color:#FAB702;
+		background-color:#36358d;
 	}
 	
 	/* !important required */
@@ -127,7 +127,7 @@
 	#music-player .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
 	section .theme-background,
 	.swiper-pagination-bullet-active {
-		background-color:#FAB702 !important;
+		background-color:#36358d !important;
 	}
 	.inews-content-inner h3>a,
 	div.side-nav ul>li:hover>a, 
@@ -135,7 +135,7 @@
 	.pagination.pagination-simple>li.active>a,
 	div.side-nav ul.list-group-bordered>li>a:hover,
 	section .theme-color {
-		color:#FAB702 !important;
+		color:#36358d  !important;
 	}
 
 	.primary-slider .ui-slider .ui-slider-handle,
@@ -148,7 +148,7 @@
 	.btn-primary:hover,
 	.btn-primary:active,
 	.btn-primary:focus {
-		border-color:#FAB702;
+		border-color:#36358d;
 	}
 
 	.open>.dropdown-toggle.btn-primary,
@@ -159,7 +159,7 @@
 	.btn-primary:hover
 	.pagination>.active>a,
 	.pagination>.active>a:hover {
-		border-color: #FAB702;
+		border-color: #36358d;
 	}
 
 	#topNav ul.dropdown-menu { /* submenu border top color */
@@ -167,29 +167,29 @@
 	}
 	section.featured-grid div.row>div .ribbon:before,
 	.modal-content {
-		border-top-color:#FAB702;
+		border-top-color:#36358d;
 	}
 
 	#topNav ul.dropdown-menu {
 		border-color: #FAB702 #fff #fff;
 	}
 	#topNav div.submenu-dark ul.dropdown-menu {
-		border-color: #FAB702 #3F3F3F #3F3F3F;
+		border-color: #36358d #3F3F3F #3F3F3F;
 	}
 	#topNav div.submenu-color ul.dropdown-menu {
-		border-color: #FAB702 #3F3F3F #3F3F3F;
+		border-color: #36358d #3F3F3F #3F3F3F;
 	}
 	#topMain li.search .search-box {
-		border-top: #FAB702 2px solid;
+		border-top: #36358d 2px solid;
 	}
 
 
 	/* COLOR DROP DOWN MENU */
 	#topNav div.submenu-color ul.dropdown-menu {
-		background-color:#FAB702;
+		background-color:#36358d;
 	}
 	#topNav div.submenu-color ul.dropdown-menu {
-		border-color: #888 #FAB702 #FAB702;
+		border-color: #888 #36358d #36358d;
 	}
 
 	#topNav div.submenu-color ul.dropdown-menu a.dropdown-toggle {
@@ -227,7 +227,7 @@
 	section.theme-color div.heading-title.heading-dotted h5,
 	section.theme-color div.heading-title.heading-dotted h6 {
 		color:#fff;
-		background-color: #FAB702;
+		background-color: #36358d;
 	}
 	section.theme-color div.heading-title h1, 
 	section.theme-color div.heading-title h2, 
@@ -235,7 +235,7 @@
 	section.theme-color div.heading-title h4, 
 	section.theme-color div.heading-title h5, 
 	section.theme-color div.heading-title h6 {
-		background-color: #FAB702;
+		background-color: #36358d;
 	}
 	section.theme-color div.heading-title h1 span, 
 	section.theme-color div.heading-title h2 span, 
@@ -243,7 +243,7 @@
 	section.theme-color div.heading-title h4 span, 
 	section.theme-color div.heading-title h5 span, 
 	section.theme-color div.heading-title h6 span {
-		color:#fff;
+		color:rgb(255, 0, 0);
 	}
 	section.theme-color a {
 		color:#fff;
@@ -318,7 +318,7 @@ section.dark .btn-default:hover {
 *************************************************** **/
 	div.heading-title.heading-line-single.heading-color:before,
 	div.heading-title.heading-line-double.heading-color:before {
-		border-color:#FAB702;
+		border-color:#36358d;
 	}
 	div.heading-border-bottom.heading-color {
 		border-bottom-color:#FAB702;
@@ -328,7 +328,7 @@ section.dark .btn-default:hover {
 		border-color:#FAB702;
 	}
 	section.dark div.heading-title.heading-border-bottom {
-		border-bottom-color:#FAB702;
+		border-bottom-color:#36358d;
 	}
 
 /**	[Shortcode] Icon Boxes
@@ -350,7 +350,7 @@ section.dark .box-icon a.box-icon-more:hover {
 
 .box-video a.box-video-title:hover h2,
 .box-video a.box-image-title:hover h2 {
-	color:#FAB702;
+	color:#36358d;
 }
 
 .box-flip .box2 {
@@ -364,7 +364,7 @@ section.dark .box-icon a.box-icon-more:hover {
 .box-flip .box2 h4,
 .box-flip .box2 h5,
 .box-flip .box2 h6 {
-	color:#fff;
+	color:rgb(163, 16, 16);
 }
 
 .box-static.box-border-top {
@@ -525,5 +525,5 @@ i.ico-hover:hover {
 .hvr-overline-from-right:before,
 .hvr-underline-reveal:before,
 .hvr-overline-reveal:before {
-	background-color: #FAB702;
+	background-color: #36358d;
 }
