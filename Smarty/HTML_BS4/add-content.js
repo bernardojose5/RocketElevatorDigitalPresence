@@ -53,12 +53,7 @@ function fcomercial(){
 }
 
    function fcorporate (){
-        var totalAscensores = 0;
-        var totalDoccupants = 0;
-        var totalColumnas = 0;
-        var ascensoresPorcolumnas = 0;
-        var ascensores = 0;
-        var totalFloors= 0;
+        
         
         document.getElementById("op4").style.display = "none"; 
         document.getElementById("op2").style.display = "none";    
@@ -78,7 +73,7 @@ function fcomercial(){
        totalDoccupants = Math.ceil(numeroDeFloors * numeroOccupantpf);
        ascensores = Math.ceil(totalDoccupants/1000);
         totalColumnas = Math.ceil(numeroDeFloors/20);
-        ascensoresPorcolumnas = Math.ceil(ascensores / totalColumnas);
+        ascensoresPorcolumnas = Math.ceil(ascensores/totalColumnas);
         totalAscensores = Math.ceil(ascensoresPorcolumnas * totalColumnas);
         
         document.getElementById("result").innerHTML = totalAscensores;
@@ -96,10 +91,10 @@ function fcomercial(){
          
           
             var numeroDeSeparateCompanies =   parseInt(document.getElementById("ncompaniesCorp").value +"<br>");    
-    var  numeroDeFloors= parseInt(document.getElementById("nfloorsCorp").value +"<br>");   
-    var numeroDeBasements = parseInt (document.getElementById("nbasementsCorp").value +"<br>"); 
-      var numeroDeParkings = parseInt(document.getElementById("nparkingsCorp").value +"<br>");
-      var  numeroOccupantpf = parseInt(document.getElementById("noccupantsCorp").value +"<br>");
+            var  numeroDeFloors= parseInt(document.getElementById("nfloorsCorp").value +"<br>");   
+            var numeroDeBasements = parseInt (document.getElementById("nbasementsCorp").value +"<br>"); 
+            var numeroDeParkings = parseInt(document.getElementById("nparkingsCorp").value +"<br>");
+            var  numeroOccupantpf = parseInt(document.getElementById("noccupantsCorp").value +"<br>");
            
             var numeroDeSeparateCompanies =   parseInt(document.getElementById("ndistbusinessB").value +"<br>");    
             var  numeroDeFloors= parseInt(document.getElementById("nfloorsB").value +"<br>");   
@@ -109,7 +104,7 @@ function fcomercial(){
             var numeroHservice = parseInt(document.getElementById("nhoursB").value +"<br>");
             
             
-            totalFloors = numeroDeFloors + numeroDeBasements;
+            
             totalDoccupants = Math.ceil(numeroDeFloors * numeroMaxoccupantpf );
             ascensores = Math.ceil(totalDoccupants/1000);
              totalColumnas = Math.ceil(numeroDeFloors/20);
