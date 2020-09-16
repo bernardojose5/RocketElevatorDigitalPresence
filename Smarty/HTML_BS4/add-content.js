@@ -9,7 +9,7 @@ totalAscensores = 0;
  document.getElementById("op2").style.display = "none"; 
 document.getElementById("n2").style.display = "none";
 document.getElementById("n3").style.display = "none";
-document.getElementById("n4").style.display = "none";  
+document.getElementById("n4").style.display="none";  
  
 var numeroDeApartments =  document.getElementById("napartementsR").value;    
  var  numeroDeFloors= document.getElementById("nfloorsR").value;   
@@ -130,7 +130,7 @@ function standard(){
   subtotalPrice = totalAscensores * precio;
   subtotalPrice2 = subtotalPrice * 0.1;
   totalPrice = subtotalPrice + subtotalPrice2;
-  document.getElementById("result3").innerHTML = totalPrice;
+  document.getElementById("result3").innerHTML = totalPrice+" "+"$";
 
 }
 function premium(){
@@ -143,7 +143,7 @@ function premium(){
   subtotalPrice = totalAscensores * precio;
   subtotalPrice2 = subtotalPrice * 0.13;
   totalPrice = subtotalPrice + subtotalPrice2;
-  document.getElementById("result3").innerHTML = totalPrice;
+  document.getElementById("result3").innerHTML = totalPrice+" "+"$";
 
 }
 function exellium(){
@@ -156,7 +156,7 @@ function exellium(){
   subtotalPrice = totalAscensores * precio;
   subtotalPrice2 = subtotalPrice * 0.16;
   totalPrice = subtotalPrice + subtotalPrice2;
-  document.getElementById("result3").innerHTML = totalPrice;
+  document.getElementById("result3").innerHTML = totalPrice+" "+"$";
 
   
 }
