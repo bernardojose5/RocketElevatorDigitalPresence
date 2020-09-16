@@ -176,24 +176,24 @@
 				
             </div>
 			  
-			<div style="background-color:rgba(44, 37, 83, 0.089);color:rgb(255, 255, 255);padding:20px;">
+				<div style="background-color:rgba(44, 37, 83, 0.089);color:rgb(255, 255, 255);padding:20px;">
                     <h1 class="text-default"align=center>SALES DEPARTEMENT</h1>
                     <h2 class="text-default">Our sales departement will give you the exact prices in record time </h2>
 				
-				<form>
-					<input type="button" id="op1" onClick="fresidential()" Value="RESIDENTIAL" />
-					<input type="button" id="op2"onClick="fcomercial()" Value="COMERCIAL" />
-					<input type="button" id="op3"onClick="fcorporate()" Value="CORPORATIVE" />
-					<input type="button" id="op4" onClick="fhybride()" Value="HYBRIDE" />
-				</form>
-		<div id="n1">
-				<form>
+					<form>
+						<input type="button" id="op1" onClick="fresidential()" Value="RESIDENTIAL" />
+						<input type="button" id="op2"onClick="fcomercial()" Value="COMERCIAL" />
+						<input type="button" id="op3"onClick="fcorporate()" Value="CORPORATIVE" />
+						<input type="button" id="op4" onClick="fhybride()" Value="HYBRIDE" />
+					</form>
+				<div id="n1">
+					<form>
 					
 						NUMBER OF APARTMENTS: <input type="text" id="napartementsR" onchange="fresidential()" /><br>
 						NUMBER OF FLOORS : <input type="text`" id="nfloorsR" onchange="fresidential()"  /><br>
 						NUMBER OF BASEMENTS: <input type="text" id="nbasementsR" onchange="fresidential()"  /><br>
 		
-				</form>
+					</form>
 				</div>
 				<div id="n2">
 					<form>
@@ -205,7 +205,7 @@
 							NUMBER OF ELEVATORS TO BE DEPLOYED : <input type="text" id="nelevatorsC" onchange="fcomercial()" /><br>					
 
 					</form>
-					</div>
+				</div>
 					<div id="n3">
 						<form>
 							    NUMBER OF SEPARATE TENANT COMPANIES: <input type="text" id="ncompaniesCorp" onchange="fcorporate()" /><br>
@@ -215,7 +215,7 @@
 								MAXIMUM NUMBER OF OCCUPANT PER FLOOR: <input type="text" id="noccupantsCorp"onchange="fcorporate()" /><br>	
 						
 						</form>
-						</div>
+					</div>
 						<div id="n4">
 							<form>
 								NUMBER OF DISTINCT BUSINESS: <input type="text" id="ndistbusinessB"onchange="fhybride()" /><br>
@@ -227,12 +227,25 @@
 						
 								
 							</form>
-							</div>
+						</div>
 
-				
-						<h2 class="text-default">NUMBER OF ELEVATOR NEEDED:
-						<span class="text-default" id = "result"></span> </h2>
-               </div>
+				<h3 class="text-default">CHOOSE YOUR CLASS</h3>
+						<label>STANDARD</label>
+						<input type="radio" value ="selection1"name="seleccion" id="select1" onClick= "standard()" />
+						<label>PREMIUM</label>
+						<input type="radio" value="selection2" name="seleccion" id="select2"onClick= "premium()" />
+						<label>EXCELIUM</label>
+						<input type="radio" value="selection3" name = "seleccion" id="select3" onClick= "exellium()" />
+			   </div>
+			   
+						<h3 class="text-default">NUMBER OF ELEVATOR NEEDED:
+						<span class="text-default" id = "result"></span> </h3>
+						
+						<h3 class="text-default">PRICE PER ELEVATOR:
+							<span class="text-default" id = "result2"></span> </h3>
+
+						<h3 class="text-default">TOTAL PRICE:
+								<span class="text-default" id = "result3"></span> </h3>
 				
 			   <!-- FOOTER -->
 			<footer id="footer">

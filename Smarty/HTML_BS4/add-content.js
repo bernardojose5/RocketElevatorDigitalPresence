@@ -52,7 +52,7 @@ function fcomercial(){
       document.getElementById("result").innerHTML = totalAscensores;
 }
 
-   function fcorporate () {
+   function fcorporate (){
         var totalAscensores = 0;
         var totalDoccupants = 0;
         var totalColumnas = 0;
@@ -68,7 +68,7 @@ function fcomercial(){
     document.getElementById("n2").style.display = "none";
     document.getElementById("n4").style.display = "none";  
      
-    var numeroDeSeparateCompanies =   parseInt(document.getElementById("ncompaniesCorp").value +"<br>");    
+    var numeroDeSeparateCompanies = parseInt(document.getElementById("ncompaniesCorp").value +"<br>");    
     var  numeroDeFloors= parseInt(document.getElementById("nfloorsCorp").value +"<br>");   
     var numeroDeBasements = parseInt (document.getElementById("nbasementsCorp").value +"<br>"); 
       var numeroDeParkings = parseInt(document.getElementById("nparkingsCorp").value +"<br>");
@@ -80,13 +80,9 @@ function fcomercial(){
         totalColumnas = Math.ceil(numeroDeFloors/20);
         ascensoresPorcolumnas = Math.ceil(ascensores / totalColumnas);
         totalAscensores = Math.ceil(ascensoresPorcolumnas * totalColumnas);
-
-
-      
-      document.getElementById("result").innerHTML = totalAscensores;
-
-   
-        }
+        
+        document.getElementById("result").innerHTML = totalAscensores;
+ }
 
         function fhybride(){
                
@@ -129,17 +125,49 @@ function fcomercial(){
        
         }
 
+function standard(){
+  var precio = 7565;
+  var porcentage = 10;
+  var totalPrice = 0;
+  var subtotalPrice = 0;
+  var subtotalPrice2 = 0;
+  document.getElementById("result2").innerHTML =  precio +" "+ "$" + " " +"AND"+" " + porcentage + "% INSTALLATION FEES";
+  subtotalPrice = totalAscensores * precio;
+  subtotalPrice2 = subtotalPrice * 0.1;
+  totalPrice = subtotalPrice + subtotalPrice2;
+  document.getElementById("result3").innerHTML = totalPrice;
 
+}
+function premium(){
+  var precio = 12345;
+  var porcentage = 13;
+  var totalPrice = 0;
+  var subtotalPrice = 0;
+  var subtotalPrice2 = 0;
+  document.getElementById("result2").innerHTML =  precio +" "+ "$" + " " +"AND"+" " + porcentage + "% INSTALLATION FEES";
+  subtotalPrice = totalAscensores * precio;
+  subtotalPrice2 = subtotalPrice * 0.13;
+  totalPrice = subtotalPrice + subtotalPrice2;
+  document.getElementById("result3").innerHTML = totalPrice;
+
+}
+function exellium(){
+  var precio = 15400;
+  var porcentage = 16;
+  var totalPrice = 0;
+  var subtotalPrice = 0;
+  var subtotalPrice2 = 0;
+  document.getElementById("result2").innerHTML =  precio +" "+ "$" + " " +"AND"+" " + porcentage + "% INSTALLATION FEES";
+  subtotalPrice = totalAscensores * precio;
+  subtotalPrice2 = subtotalPrice * 0.16;
+  totalPrice = subtotalPrice + subtotalPrice2;
+  document.getElementById("result3").innerHTML = totalPrice;
+
+  
+}
 function multiplyBy()
 {
         num1 = document.getElementById("firstNumber").value;
         num2 = document.getElementById("secondNumber").value;
         document.getElementById("result").innerHTML = num1 * num2;
-}
-
-function divideBy() 
-{ 
-        num1 = document.getElementById("firstNumber").value;
-        num2 = document.getElementById("secondNumber").value;
-document.getElementById("result").innerHTML = num1 / num2;
 }
